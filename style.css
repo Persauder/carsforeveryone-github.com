@@ -27,6 +27,12 @@ header {
     margin-right: 15px;
 }
 
+.banner h1 {
+    color: #0073e6;
+    font-size: 24px;
+    margin: 0;
+}
+
 /* Navigation Styling */
 nav ul {
     list-style: none;
