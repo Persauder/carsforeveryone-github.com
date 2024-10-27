@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Website</title>
+    <title>Car Enthusiasts' Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Car Enthusiasts' Website</h1>
+        <!-- Logo or Banner -->
+        <div class="banner">
+            <img src="images/logo.png" alt="Car Enthusiasts Logo" class="logo">
+            <h1>Welcome to Car Enthusiasts' Haven</h1>
+        </div>
+        <!-- Navigation Menu -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,29 +25,37 @@
 
     <section>
         <h2>About Cars</h2>
-        <p>This website is for car lovers! Explore the gallery to see amazing cars, and visit our links for the best resources about cars.</p>
+        <p>This website is dedicated to car enthusiasts from around the world. Discover stunning car images, informative articles, and links to the best resources in the automotive world. Whether you're a fan of classic cars, modern supercars, or futuristic concepts, we've got something for everyone.</p>
     </section>
 
-    
-    <section>
-        <h2>Contact Us</h2>
-        <form action="contact.php" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
-            
-            <input type="submit" value="Send">
-        </form>
+    <!-- New Featured Cars Section -->
+    <section class="featured-cars">
+        <h2>Featured Cars</h2>
+        <div class="car-item">
+            <img src="images/featured1.jpg" alt="Featured Car 1">
+            <div class="car-description">
+                <h3>Ferrari F8 Tributo</h3>
+                <p>The Ferrari F8 Tributo represents the pinnacle of Ferrari's mid-engine V8 performance, boasting a twin-turbo 3.9-liter engine that delivers exhilarating power and a breathtaking design.</p>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="images/featured2.jpg" alt="Featured Car 2">
+            <div class="car-description">
+                <h3>Ford Mustang GT</h3>
+                <p>The Ford Mustang GT is an American classic, embodying raw muscle with a roaring V8 engine. It's a perfect blend of heritage and modern performance.</p>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="images/featured3.jpg" alt="Featured Car 3">
+            <div class="car-description">
+                <h3>Porsche 911 Carrera</h3>
+                <p>Known for its distinctive design and outstanding handling, the Porsche 911 Carrera continues to be an icon in the world of sports cars.</p>
+            </div>
+        </div>
     </section>
-
 
     <footer>
-        <p>&copy; 2024 Car Website</p>
+        <p>&copy; 2024 Car Enthusiasts' Website</p>
     </footer>
 </body>
 </html>

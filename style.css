@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,6 +13,21 @@ header {
     text-align: center;
 }
 
+/* Banner Styling */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,14 +43,47 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+/* Featured Cars Section */
+.featured-cars {
     padding: 20px;
+    background-color: #fff;
 }
 
-h1, h2 {
+.featured-cars h2 {
+    text-align: center;
     color: #333;
 }
 
+.car-item {
+    display: flex;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.car-item img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.car-description {
+    padding: 15px;
+}
+
+.car-description h3 {
+    color: #333;
+    margin: 0;
+}
+
+.car-description p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
