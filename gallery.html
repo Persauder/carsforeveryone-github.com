@@ -35,18 +35,15 @@
             <img src="images/car12.jpg" alt="Car 12" class="thumbnail">
         </div>
     </section>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
 
     <footer>
         <p>&copy; 2024 Car Website</p>
     </footer>
-
-    <script>
-        // Enlarge image when clicked
-        document.querySelectorAll('.thumbnail').forEach(img => {
-            img.addEventListener('click', function() {
-                window.open(this.src, '_blank');
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
